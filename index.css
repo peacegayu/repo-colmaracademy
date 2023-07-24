@@ -1,0 +1,583 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #808080;
+  transition: color ease-in 300ms;
+}
+
+.main-content {
+  position: relative;
+  top: 64px;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h2 {
+  display: inline;
+}
+
+
+/* Navigation */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.desktop {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+img .logo {
+  height: 32px;
+}
+
+.logo-text {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.logo-text .colmar {
+  color: black;
+}
+
+@media only screen and (min-width: 481px) {
+  .mobile {
+      display: none;
+  }
+}
+
+
+/* Banner section */
+
+.banner-section {
+  background-color: #cfcfcf;
+  padding: 2rem 1.5rem;
+  display: flex;
+}
+
+.banner-image {
+  max-width: 60%;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-content {
+  padding: 0 1.5rem;
+  margin: auto;
+}
+
+.banner-content h1 {
+  display: inline;
+}
+
+.button {
+  background-color: #303030;
+  padding: 0.5rem;
+}
+
+.button :hover {
+  color: #606060;
+  transition: color ease-in 300ms;
+}
+
+.button p {
+  text-align: center;
+  line-height: 0;
+}
+
+.button-link {
+  color: white;
+}
+
+
+
+/* Information section */
+
+#information {
+  display: flex;
+  padding: 2rem 0 0 1.5rem;
+}
+
+.information-main {
+  width: 60%;
+  padding-right: 1.5rem;
+  border-right: 1px solid #cfcfcf;
+}
+
+.information-main img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.information-main h2 {
+  display: inline;
+  font-size: 1.3rem;
+}
+
+.info-main-content {
+  padding-top: 0.5rem;
+  display: inline-block;
+}
+
+.information-credit {
+  font-size: 0.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+.information-boxes {
+  width: 40%;
+}
+
+.image-container {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-content {
+  padding: 0 1rem;
+}
+
+.info-content p {
+  font-size: 0.9rem;
+}
+
+.info-content h4 {
+  display: inline;
+}
+
+.info-content a {
+  color: rgb(77, 77, 255);
+}
+
+.info-content a:hover {
+  color: #000;
+  transition: color ease-in 500ms;
+}
+.guest-container {
+  display: flex;
+  background-color: #cfcfcf;
+  padding: 1rem 0 1rem 1.5rem;
+}
+
+.content-image {
+  max-width: 35%;
+}
+
+#content-image {
+  max-width: 100%;
+}
+
+.content-image-mobile {
+  display: none;
+}
+
+.guest-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Courses section */
+
+.courses {
+  background-color: #efefef;
+  max-width: 100%;
+  padding: 2rem 4.375rem;
+}
+
+.course-boxes {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.course-container {
+  display: block;
+  width: 32%;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.course-image {
+  max-width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.course-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course-text {
+  padding: 0 1rem 0.5rem 1rem;
+}
+
+.course-text h4 {
+  display: inline;
+}
+
+.course-text p {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* Thesis section */
+
+.thesis {
+  max-width: 100%;
+  padding: 2rem 0 2rem 1.5rem;
+}
+
+.thesis .center {
+  margin-bottom: 2rem;
+}
+
+.thesis h4 {
+  display: inline;
+}
+
+.thesis p {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.content-box {
+  display: flex;
+}
+
+.video-container {
+  width: 60%;
+  margin-right: 1.5rem;
+}
+
+.video-player {
+  margin-bottom: 1.5rem;
+}
+
+.video-player video{
+  width: 100%;
+  height: auto;
+}
+
+.thesis .image-container {
+  align-items: center;
+}
+
+.fisma-container {
+  display: flex;
+  background-color: #cfcfcf;
+  padding: 1rem 0 1rem 1.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.fisma-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  font-size: 0.65rem;
+  font-family: Arial, Helvetica, sans-serif;    justify-content: space-between;
+  border-top: 0.5px solid #cfcfcf;
+  position: relative;
+  top: 64px;
+  padding: 1rem 1.5rem 0;
+}
+
+.footer-links {
+  float: right;
+}
+
+
+
+/* Mobile navigation */
+
+@media only screen and (max-width: 480px) {
+  body {
+      margin: 0;
+  }
+  
+  .desktop, .desktop a, .logo, .logo-text {
+      display: none;
+  }
+
+  header .content .mobile ul {
+      padding-left: 0px;
+  }
+
+  .mobile {
+      width: 100%;
+  }
+
+  header nav ul {
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  header nav li {
+      padding: 0 1.25rem;
+  }
+
+  header .content {
+      padding: 0;
+  }
+}
+
+/* Mobile banner */
+
+@media only screen and (max-width: 480px) {
+  .banner-section {
+      display: block;
+      padding: 0;
+  }
+
+  .banner-image {
+      max-width: 100%;
+  }
+
+  .banner-content {
+      padding: 1.5rem 1rem 2rem;
+  }
+
+  .banner-content h1 {
+      font-size: 2rem;
+  }
+
+}
+
+/* Mobile information section */
+
+@media only screen and (max-width: 480px) {
+  #information {
+      display: block;
+      padding: 1rem 1rem 0;
+      border-bottom: 0.5px solid #cfcfcf;
+  }
+
+  .information-main, .content-image, #content-image {
+      display: none;
+  }
+
+  .information-boxes {
+      width: 100%;
+      padding: 2rem 0;
+  }
+
+  .image-container {
+      display: block;
+      margin: 0;
+      padding-bottom: 2rem;
+      padding-left: 0;
+  }
+
+  .image-container img {
+      width: 100%;
+      height: 150px;
+  }
+
+  .content-image {
+      max-width: 100%;
+  }
+
+  .content-image-mobile {
+      display: block;
+      max-width: 100%;
+  }
+
+  .guest-container {
+      display: block;
+      background-color: #fff;
+      padding: 0;
+  }
+
+  .guest-container img {
+      width: 100%;
+      height: 150px;
+  }
+}
+
+
+/* Mobile courses section */
+
+@media only screen and (max-width: 480px) {
+  .courses {
+      display: block;
+      padding: 2rem 1rem;
+      background-color: #fff;
+      border-bottom: 0.5px solid #cfcfcf;
+  }
+
+  .course-boxes {
+      display: block;
+      margin-top: 1rem;
+  }
+
+  .course-image, .course-text p {
+      display: none;
+  }
+
+
+  .course-container {
+      width: 100%;
+  }
+
+  .course-text {
+      background-color: #cfcfcf;
+      padding: 1rem 1rem 1.5rem 1rem;
+      margin: 0.5rem 0;
+  }
+
+  .course-text h4 {
+      display: inline;
+      text-align: center;
+  }
+
+  .course-text :hover {
+      color:rgb(77, 77, 255);
+      transition: color ease-in 300ms;
+  }
+}
+
+/* Mobile thesis section */
+
+@media only screen and (max-width: 480px){
+  .thesis .information-boxes, .thesis .fisma-container{
+      display: none;
+  }
+
+  .thesis h4, .thesis p {
+      display: none;
+  }
+
+  .thesis {
+      padding: 2rem 0;
+  }
+
+  .content-box {
+      display: block;
+      width: 100%;
+  }
+
+  .video-container {
+      display: block;
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .video-player {
+      margin-bottom: 0;
+  }
+}
+
+/* Mobile footer */
+
+@media only screen and (max-width: 480px) {
+  .footer-links {
+      display: none;
+  }
+
+  footer {
+      padding: 1rem;
+  }
+}
+
+/* adds margin, changes padding on courses box at under 830px wide browser */
+@media only screen and (min-width: 481px) and (max-width: 830px) {
+  .courses {
+      margin-top: 1rem;
+      max-width: 100%;
+      padding: 1.5rem 2rem;
+  }
+}
+
+/* desktop browser sizes 760px and below */
+
+@media only screen and (min-width: 481px) and (max-width: 760px) {
+  .banner-content h1 {
+      font-size: 1.5rem;
+  }
+
+  .banner-content {
+      font-size: 0.8rem;
+  }
+
+  .info-content h4 {
+      font-size: 0.8rem;
+  }
+
+  .info-content p {
+      font-size: 0.75rem;
+  }
+
+  .image-container {
+      padding-left: 1rem;
+  }
+
+  .guest-container {
+      padding: .5rem 0 .5rem 1rem;
+  }
+
+  .fisma-container {
+      padding: .5rem 0 .25rem 1rem;
+  }
+  .video-player {
+      margin-bottom: .75rem;
+  }
+}
